@@ -5,10 +5,10 @@
   width: 20%;
   height: 14px;
   background-image: url(../../../images/arrow.svg);
-  background-color: inherit;
+  background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: scale .2s ease;
+  transition: all .3s ease;
 }
 
 .header__button:hover {

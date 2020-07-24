@@ -10,12 +10,9 @@
 
 .header {
   max-width: 1248px;
-  margin: 0 auto 0;
+  margin: 0 auto 130px;
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
 }
-/*
-* {
-  border: 1px solid red;
-} */
+

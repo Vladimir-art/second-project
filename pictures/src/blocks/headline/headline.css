@@ -1,5 +1,14 @@
+@import url(./__info/headline__info.css);
 @import url(./__author/headline__author.css);
 @import url(./__camption/headline__camption.css);
 @import url(./__buttons/headline__buttons.css);
 @import url(./__btn-next/headline__btn-next.css);
 @import url(./__btn-prev/headline__btn-prev.css);
+@import url(./__image/headline__image.css);
+
+.headline {
+  display: flex;
+  max-width: 1238px;
+  margin: 0 auto;
+  position: relative;
+}

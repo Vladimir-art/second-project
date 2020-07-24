@@ -1,0 +1,5 @@
+.headline__buttons {
+  max-width: 380px;
+  display: flex;
+  justify-content: space-between;
+}

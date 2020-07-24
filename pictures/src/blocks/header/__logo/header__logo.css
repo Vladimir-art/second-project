@@ -1,4 +1,9 @@
 .header__logo {
   width: 49px;
   height: 35px;
+  transition: all .3s ease;
+}
+
+.header__logo:hover {
+  cursor: pointer;
 }

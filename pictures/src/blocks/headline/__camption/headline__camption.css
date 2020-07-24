@@ -1,0 +1,11 @@
+.headline__camption {
+  max-width: 380px;
+  margin: 0 0 50px;
+  padding: 0;
+  font-family: "Oxygen", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #4B5D68;
+}

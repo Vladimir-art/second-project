@@ -1,0 +1,13 @@
+.headline__author {
+  margin: 0 0 50px;
+  padding: 0;
+  max-width: 645px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 88px;
+  align-items: center;
+  color: #212353;
+  z-index: 2;
+}
