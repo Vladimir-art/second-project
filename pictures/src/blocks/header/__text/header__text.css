@@ -6,4 +6,9 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
+    transition: text-shadow .2s ease;
+}
+
+.header__text:hover {
+  text-shadow: 0 0 .9px #212353, 0 0 .9px #212353;
 }

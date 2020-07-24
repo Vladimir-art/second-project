@@ -1,0 +1,17 @@
+.header__button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 20%;
+  height: 14px;
+  background-image: url(../../../images/arrow.svg);
+  background-color: inherit;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: scale .2s ease;
+}
+
+.header__button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}

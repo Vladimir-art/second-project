@@ -1,12 +1,12 @@
 .page {
     width: 100%;
     min-width: 320px;
+    height: 100%;
     margin: 0 auto;
     font-family: "Oxygen", Arial, sans-serif;
-    background-color: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #4B5D68;
     position: relative;
   }
-  
