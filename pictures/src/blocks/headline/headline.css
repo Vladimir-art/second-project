@@ -9,6 +9,7 @@
 .headline {
   display: flex;
   max-width: 1238px;
+  height: 464px;
   margin: 0 auto;
   position: relative;
 }

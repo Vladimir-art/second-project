@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from '../images/Logo.svg';
-// import Search from '../images/search.svg';
 
 function Header() {
   return (
@@ -16,7 +15,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <form className="header__search">
+      <form className="header__search header__search_scale">
         <input className="header__input" placeholder="Search" type="text" />
         <button className="header__button" type="submit"></button>
       </form>

@@ -1,14 +1,14 @@
 .header__button {
-  margin: 0;
+  margin: 0 15px 0 0;
   padding: 0;
   border: 0;
-  width: 20%;
+  width: 20px;
   height: 14px;
   background-image: url(../../../images/arrow.svg);
   background-color: transparent;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: all .3s ease;
+  transition: all .4s ease;
 }
 
 .header__button:hover {
