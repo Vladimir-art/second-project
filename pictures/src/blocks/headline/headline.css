@@ -4,12 +4,14 @@
 @import url(./__buttons/headline__buttons.css);
 @import url(./__btn-next/headline__btn-next.css);
 @import url(./__btn-prev/headline__btn-prev.css);
+@import url(./__btn-next/_inactive/headline__btn-next_inactive.css);
+@import url(./__btn-prev/_inactive/headline__btn-prev_inactive.css);
 @import url(./__image/headline__image.css);
 
 .headline {
   display: flex;
   max-width: 1238px;
   height: 464px;
-  margin: 0 auto;
+  margin: 0 auto 130px;
   position: relative;
 }

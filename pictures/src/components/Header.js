@@ -1,7 +1,18 @@
 import React from 'react';
 import Logo from '../images/Logo.svg';
 
-function Header() {
+function Header(props) {
+
+  const [searchPhoto, setSearchPhoto] = React.useState('');
+  function handleSearchPhoto(e) {
+    setSearchPhoto(e.target.value);
+  }
+
+  function handlePhoto(e) {
+    e.preventDefault();
+    props.onClick(searchPhoto);
+  }
+
   return (
     <header className="header">
       <div className="header__info">
@@ -15,8 +26,8 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <form className="header__search header__search_scale">
-        <input className="header__input" placeholder="Search" type="text" />
+      <form className="header__search header__search_scale" onSubmit={handlePhoto}>
+        <input className="header__input" placeholder="Search" type="text" defaultValue={searchPhoto} onChange={handleSearchPhoto} />
         <button className="header__button" type="submit"></button>
       </form>
     </header>

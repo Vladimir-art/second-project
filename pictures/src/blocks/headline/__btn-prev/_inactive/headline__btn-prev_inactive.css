@@ -1,0 +1,7 @@
+.headline__btn-prev_inactive {
+  background: #9c92aa;
+}
+
+.headline__btn-prev_inactive:hover {
+  background: #80798a;
+}
