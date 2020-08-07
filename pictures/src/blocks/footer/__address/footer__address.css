@@ -1,0 +1,11 @@
+.footer__address {
+  position: relative;
+  text-decoration: none;
+  font-family: "Oxygen", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  color: #212353d8;
+}

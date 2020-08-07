@@ -1,1 +1,15 @@
-@import url(./)
+@import url(./__nav/footer__nav.css);
+@import url(./__lists/footer__lists.css);
+@import url(./__list/footer__list.css);
+@import url(./__info/footer__info.css);
+@import url(./__text/footer__text.css);
+@import url(./__address/footer__address.css);
+@import url(./__link/footer__link.css);
+
+.footer {
+  display: flex;
+  max-width: 1238px;
+  margin: 0 auto;
+  position: relative;
+  justify-content: space-between;
+}

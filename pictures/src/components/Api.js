@@ -26,7 +26,6 @@ class Api {
       method: 'GET'
     })
   }
-
 }
 
 export const api = new Api({

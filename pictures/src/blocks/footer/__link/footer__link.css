@@ -1,0 +1,26 @@
+.footer__link {
+  text-decoration: none;
+  font-family: "Oxygen", Arial, sans-serif;
+  color: #212353d8;
+  position: relative;
+  outline: none;
+}
+
+.footer__link::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: rgba(156, 105, 226, .6);
+  content: '';
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(7px);
+  box-sizing: border-box;
+}
+
+.footer__link:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
